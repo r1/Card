@@ -1,0 +1,64 @@
+html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      font-family: Helvetica;
+      overflow: hidden;
+}
+
+.card {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      background: #fff;
+}
+
+.card-img {
+      background-position: center;
+      width: 50%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.card-para {
+      font-size: 1.6vmin;
+      line-height: 1.8;
+      font-weight: 300;
+      margin-bottom: 2.5vmin;
+      color: #fff;
+      font-family: Helvetica;
+}
+
+#image {
+      background-image: url("https://images.unsplash.com/photo-1519907179123-b9b7b4cfbf8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80");
+}
+
+.card-content {
+      padding: 10% 5%;
+      box-sizing: border-box;
+      width: 50%;
+      background: #0A0A0A;
+}
+
+.card-theme {
+      font-weight: 900;
+      font-size: 1.7vmin;
+      text-transform: uppercase;
+      font-family: Helvetica;
+      letter-spacing: 10px;
+      color: grey;
+}
+
+.card-header {
+      font-weight: 700;
+      font-size: 54px;
+      text-transform: capitalize;
+      line-height: 1;
+      margin: 3vmin 0 3.5vmin;
+      color: #fff;
+      font-family: Helvetica;
+}
