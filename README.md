@@ -1,5 +1,5 @@
 # Card
-Simple Card Example 📄 
+Simple Card Template 📄 
 
 Live Preview: https://r1.github.io/Card/
 
